@@ -1,3 +1,10 @@
+# Part-1 
+# -> output
+# -> Variables
+# -> Input 
+# -> Comments 
+
+
 print("Hello World!");
 
 # String 
@@ -30,6 +37,5 @@ print(type(marks))
 
 
 # How to take inputs in Python
-
 college = input("Enter you college");
 print("My college is:"+college)

@@ -1,14 +1,6 @@
-# Type casting is done by the programer!
-# which is used to change the type of an variable --- int(), float(), str();
+# Type Conversion
 
+print(1+ 2.5); #Implicit here the python by default converting the int 1 into float 1 and return output as 3.5 which is float
 
-# Bydefault all the input statements considered into Strings
-age = input("Enter age: ");
-print(age, type(age)) #Expected O/P ----> 20 int, but it gives ---- 20 str
-
-#So that we use type casting;
-
-Age = input("Enter the age");
-Age = int(Age);
-print(Age, type(Age)) # O/P -----> 20 int
-
+#Type casting
+print (1 + int(2.55)); #Explicit here the programmer not allowing python for type conversion. O/P------> 3

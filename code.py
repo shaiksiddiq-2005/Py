@@ -39,3 +39,20 @@ print(type(marks))
 # How to take inputs in Python
 college = input("Enter you college");
 print("My college is:"+college)
+
+
+# Test 
+firstName = "Tony";
+lastName = "Stark";
+
+toniAge = 53
+toniHeight = "1.85m";
+
+
+print(firstName);
+print(lastName);
+print(toniAge);
+print(toniHeight);
+
+superHero = input("Enter superHero name of TONI: ");
+print("Tony is: "+superHero);
